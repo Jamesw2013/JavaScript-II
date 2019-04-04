@@ -1,6 +1,13 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function multiply(x){
+  return function (y) {
+    return x * y; 
+  };
+}
 
+let multiply2 = multiply(2);
+console.log("multiply2 =", multiply2(4)); 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
